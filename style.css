@@ -71,6 +71,10 @@ header a:hover{
     font-weight: 700;
 }
 
+.textbox button:hover{
+    box-shadow: 0px 4px 8px 1px rgba(0,0,0,0.75);
+}
+
 .image{
     display: flex;
     justify-content: center;
@@ -122,6 +126,10 @@ header a:hover{
     font-size: 0.8rem;
 }
 
+.view a:hover{
+    text-decoration: underline;
+}
+
 .boxdata{
     display: flex;
     flex-direction: row;
@@ -154,7 +162,6 @@ header a:hover{
 }
 .box1 p,.box2 p{
     font-size: 0.9rem;
-
 }
 
 /* -------------featured works-------------- */
@@ -247,6 +254,10 @@ header a:hover{
 .contact i{
     margin: 10px;
     font-size: 1.5rem;
+}
+
+.contact i:hover{
+    cursor: pointer;
 }
 
 /* -------------footer-------------- */
