@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    max-height: 100vh;
+    min-width: 80vw;
+    margin: auto;
+}
+
+/* -------------header-------------- */
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+    min-height: 15vh;
+    max-width: 97vw;
+}
+
+header a{
+    padding: 4px;
+    margin: 12px;
+    text-decoration: none;
+    color: black;
+    
+}
+
+header a:hover{
+    background-color: aqua;
+}
+
+/* -------------Profile-------------- */
+
+.profile{
+    min-height: 20vh;
+    max-width: 70vw;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.textbox{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 30vw;
+}
+
+.textbox p{
+    max-width: 40vw;
+    margin-top: 20px;
+}
+
+.textbox button{
+    margin-top: 20px;
+    padding: 8px 12px;
+    background-color: rgb(240, 48, 80);
+    color: whitesmoke;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: 700;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image img{
+    width: 150px;
+    height: 150px;
+}
+
+.circle{
+    border: solid;
+    border-radius: 50%;
+    background-color: aquamarine;
+    box-shadow: 8px 14px 10px -6px rgba(0,0,0,0.26);
+}
+
+/* -------------Post-------------- */
+
+.cover{
+    background-color: rgb(141, 214, 245, 0.4);
+}
+
+.post{
+    min-height: 20vh;
+    max-width: 70vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-bottom: 30px;
+}
+
+.view{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0px;
+}
+
+.view p{
+    font-size: 0.9rem;
+}
+
+.view a{
+    text-decoration: none;
+    color: rgb(0, 94, 255);
+    font-size: 0.8rem;
+}
+
+.boxdata{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.box1 ,.box2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: white;
+    padding: 12px;
+}
+
+.box1{
+    margin-right: 8px;
+}
+.box2{
+    margin-left: 8px;
+}
+
+.box1 h2,.box2 h2{
+    margin-bottom: 8px;
+}
+.box1 h4, .box2 h4{
+    margin-bottom: 8px;
+    font-weight: 400;
+    font-size: 0.95rem;
+}
+.box1 p,.box2 p{
+    font-size: 0.9rem;
+
+}
+
+/* -------------featured works-------------- */
+
+.works{
+    min-height: 40vh;
+    max-width: 70vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.featured{
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 15px;
+}
+
+.achievement{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.job{
+    display: flex;
+    flex-direction: row;
+  
+}
+
+.img img{
+    width: 150px;
+    height: 120px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.text h2{
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+}
+
+.text span{
+    font-weight: 700;
+    font-size: 0.7rem;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 0px 3px;
+    background-color: black;
+    color: whitesmoke;
+    margin-bottom: 8px;
+}
+
+.text h5{
+    font-weight: 400;
+    color: grey;
+    margin-bottom: 8px;
+}
+
+.text p{
+    margin-bottom: 8px;
+    font-size: 0.9rem;
+}
+
+.job{
+    padding: 20px 0px;
+    border-bottom: 1px solid silver;
+}
+
+/* -------------contact-------------- */
+
+.contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 5vh;
+    padding-top: 50px;
+}
+
+.contact i{
+    margin: 10px;
+    font-size: 1.5rem;
+}
+
+/* -------------footer-------------- */
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+footer .copyright{
+    font-size: 0.8rem;
+}
