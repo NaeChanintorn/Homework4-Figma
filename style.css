@@ -372,5 +372,7 @@ footer .copyright{
         margin-top: 100px;
     }
 
-
+    header p:hover{
+        cursor: pointer;
+    }
 }
