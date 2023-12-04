@@ -15,6 +15,10 @@ body{
 
 /* -------------header-------------- */
 
+header p{
+    display: none;
+}
+
 header{
     display: flex;
     flex-direction: row;
@@ -190,7 +194,7 @@ header a:hover{
     align-items: center;
 }
 
-.job{
+.job1,.job2,.job3{
     display: flex;
     flex-direction: row;
 }
@@ -236,7 +240,7 @@ header a:hover{
     font-size: 0.9rem;
 }
 
-.job{
+.job1,.job2,.job3{
     padding: 20px 0px;
     border-bottom: 1px solid silver;
 }
@@ -272,4 +276,101 @@ footer{
 
 footer .copyright{
     font-size: 0.8rem;
+}
+
+/* -------------responsive-------------- */
+
+@media screen and (max-width: 800px){
+    body{
+        max-width: 100vw;
+    }
+
+    header , .profile , .post , .works{
+        width: 100%;
+    }
+
+    header{
+        min-height: 6vh;
+        display: flex;
+        justify-self: flex-end;
+    }
+
+    header a{
+        display: none;
+    }
+
+    header p{
+        display: flex;
+        font-size: 2rem;
+    }
+
+    .profile{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .textbox{
+        text-align: center;
+    }
+
+    .textbox button{
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    .post{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;  
+    }
+
+    .cover{
+        width: 100%;
+        margin: auto;
+    }
+
+    .boxdata{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .box1 , .box2{
+        margin: 10px;
+    }
+
+    .view a{
+        display: none;
+    }
+
+    .works{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .img img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .job2 ,.job3{
+        display: none;
+    }
+
+    .job1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact{
+        margin-top: 100px;
+    }
+
+
 }
