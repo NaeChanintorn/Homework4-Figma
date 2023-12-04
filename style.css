@@ -308,15 +308,32 @@ footer .copyright{
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
+        min-width: 100vw;
     }
 
     .textbox{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .textbox{
+        margin-top: 20px;
+    }
+
+    .textbox h1{
+        text-align: center;
+    }
+
+    .textbox p{
+        min-width: 80vw;
         text-align: center;
     }
 
     .textbox button{
         margin: auto;
-        margin-top: 10px;
+        margin-top: 20px;
     }
 
     .post{
